@@ -1,0 +1,27 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Training artifacts
+/checkpoints/
+/output/
+/outputs/
+/logs/
+/wandb/
+*.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+*.swp
